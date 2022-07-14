@@ -1,9 +1,4 @@
-on: ci
-
-ci:
-  push:
-    branches:
-      - 'mian'
+on: push
 
 jobs:
   docker:
